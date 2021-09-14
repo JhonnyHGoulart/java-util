@@ -3,6 +3,7 @@
 .idea/
 /out/
 untitled104.iml*
+banco/
 
 # Log file
 *.log
