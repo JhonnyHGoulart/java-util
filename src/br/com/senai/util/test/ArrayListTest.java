@@ -7,7 +7,7 @@ import java.util.ArrayList;
 
 public class ArrayListTest {
     public static void main(String[] args) {
-        ArrayList lista = new java.util.ArrayList();
+        ArrayList<Conta> lista = new ArrayList<Conta>();
         Conta cc = new ContaCorrente(11,12);
         Conta cc2 = new ContaCorrente(11,34);
         Conta cc3 = new ContaCorrente(11,56);
@@ -27,14 +27,14 @@ public class ArrayListTest {
         System.out.println("Tamanho da lista "+lista.size());
 
         for(int i = 0; i < lista.size(); i++){
-            Object oRef = (Conta) lista.get(i);
+            Object oRef =  lista.get(i);
             System.out.println(oRef);
         }
 
         System.out.println("########################");
 
-        for(Object oRef : lista){
-            System.out.println(oRef);
+        for(Conta conta : lista){
+            System.out.println(conta);
         }
     }
 }
