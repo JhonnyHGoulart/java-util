@@ -1,6 +1,6 @@
 package br.com.senai;
 
-import br.com.bytebank.banco.modelo.ContaCorrente;
+import br.com.senai.banco.modelo.ContaCorrente;
 
 public class ArrayReferenciasTest {
     public static void main(String[] args) {

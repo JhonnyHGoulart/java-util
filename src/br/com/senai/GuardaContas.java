@@ -1,6 +1,6 @@
 package br.com.senai;
 
-import br.com.bytebank.banco.modelo.Conta;
+import br.com.senai.banco.modelo.Conta;
 
 public class GuardaContas {
     private Conta[] contas;
