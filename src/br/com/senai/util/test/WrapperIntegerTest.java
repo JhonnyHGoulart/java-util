@@ -2,7 +2,7 @@ package br.com.senai.util.test;
 
 import java.util.ArrayList;
 
-public class ArrayListVectorTest {
+public class WrapperIntegerTest {
     public static void main(String[] args) {
 
         int idade = 29;
