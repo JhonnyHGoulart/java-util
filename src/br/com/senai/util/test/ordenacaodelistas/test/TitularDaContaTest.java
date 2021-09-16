@@ -47,15 +47,11 @@ public class TitularDaContaTest {
             System.out.println(conta.getTitular().getNome());
         }
 
-        TitularDaContaComparator titularComparator = new TitularDaContaComparator();
-        lista.sort(titularComparator);
+        lista.sort(new TitularDaContaComparator());
         System.out.println("---------");
 
         for (Conta conta : lista) {
             System.out.println(conta.getTitular().getNome());
         }
-
-        lista.sort(titularComparator);
-
     }
 }
